@@ -13,8 +13,8 @@ export class FilmesController {
   }
 
   @Get()
-  findAll() {
-    return this.filmesService.findAll();
+  getFilmes() {
+    return 'Lista de todos os filmes';
   }
 
   @Get(':id')
